@@ -2917,9 +2917,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var routes = [
-    { path: '', redirectTo: 'home', pathMatch: 'full' },
+    { path: '', redirectTo: 'index.html', pathMatch: 'full' },
     // { path: 'home', loadChildren: './home/home.module#HomePageModule' },
-    { path: 'home', loadChildren: './task-list/task-list.module#TaskListPageModule' },
+    { path: 'index.html', loadChildren: './task-list/task-list.module#TaskListPageModule' },
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
